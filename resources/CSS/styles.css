@@ -188,3 +188,33 @@ body {
     flex-direction: column;
     justify-content: center;
 }
+
+.player {
+    padding-bottom: 5vh;
+    border: 3px solid white;
+    border-radius: 10px;
+    width: 40%;
+    height:fit-content;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.player audio {
+    position: absolute;
+    bottom: 0;
+}
+.player img {
+    width: 80%;
+    display: block;
+}
+.subtitle {
+    font-weight: 800;
+    color: white;
+    letter-spacing: -3px;
+    font-family: Arial;
+    margin: 0 auto;
+    font-size: 2rem;
+}
