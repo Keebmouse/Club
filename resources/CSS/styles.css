@@ -146,6 +146,7 @@ header h3 {
 section {
     background-image: url("../images/concert.jpg");
     background-size: cover;
+    margin-bottom: 5%;
 }
 #about {
     display: flex;
@@ -178,7 +179,10 @@ section {
     color: white;
     letter-spacing: -1px;
 }
-
+body {
+    background-image: url("../images/lol.gif");
+    background-size: auto;
+}
 #weekly {
     display: flex;
     flex-direction: column;
