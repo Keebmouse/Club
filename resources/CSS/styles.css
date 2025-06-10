@@ -180,8 +180,7 @@ section {
     letter-spacing: -1px;
 }
 body {
-    background-image: url("../images/lol.gif");
-    background-size: auto;
+    Background-color: ; 
 }
 #weekly {
     display: flex;
@@ -220,4 +219,17 @@ body {
 }
 #copy {
     color: white;
+}
+
+@media screen and (max-width: 380px){
+    .player {
+        width: 100%;
+    }
+    .blog-wrapper {
+        width: 100%;
+    }
+    .text-block-wrapper p {
+        font-size: 1.5rem;
+        width: 100%;
+    }
 }
